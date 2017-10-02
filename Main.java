@@ -23,8 +23,8 @@ public class Main {
         Triangle triangle = new Triangle(56, 112, 56);
         
 
-        if (triangle.Square(x, y, z) > 0) {
-            System.out.println("The Square of this triangle is: " + triangle.Square(x, y, z));
+        if (triangle.square(x, y, z) > 0) {
+            System.out.println("The Square of this triangle is: " + triangle.square(x, y, z));
         } else {
             System.out.println("These triangle's side have not correct values!");
         }
