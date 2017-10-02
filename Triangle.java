@@ -49,7 +49,7 @@ public class Triangle {
                 '}';
     }
 
-    public double Square(double a, double b, double c) {
+    public double square(double a, double b, double c) {
         double s;
 //   check if this triangle has correct size
         if ((a + b) > c && (a + c) > b && (c + b) > a) {
